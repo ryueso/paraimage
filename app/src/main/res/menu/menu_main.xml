@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tokyo.webstudio.paraimage.MainActivity">
+    <item
+        android:id="@+id/close"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/close" android:icon="@android:drawable/ic_menu_close_clear_cancel"/>
+</menu>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:padding="0dip" android:background="#f1cece">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/ImageName"
+        android:layout_alignParentTop="true" android:scaleType="matrix" android:clickable="true"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <TextView
+            android:id="@+id/pageNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textColor="#999999"/>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/slash" android:textColor="#999999"/>
+        <TextView
+            android:id="@+id/pageTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textColor="#999999"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button
+            android:id="@+id/prevBtn"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prev" android:paddingLeft="30dip" android:paddingRight="30dip"/>
+        <Button
+            android:id="@+id/backBtn"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back2start"/>
+        <Button
+            android:id="@+id/nextBtn"
+            style="@android:style/Widget.Button.Inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next" android:paddingLeft="30dip" android:paddingRight="30dip"/>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ParaImage Demo</string>
+    <string name="ImageName">Image</string>
+    <string name="server_error_msg">Failed to loading data. Please exit the applicateion.</string>
+    <string name="server_error_title">Server Error</string>
+    <string name="dialog_title">Now loading.</string>
+    <string name="dialog_msg">Loading images.</string>
+    <string name="yes">Yes</string>
+    <string name="return_start_pos">The last page.</string>
+    <string name="prev">Back</string>
+    <string name="back2start">Top</string>
+    <string name="next">Next</string>
+    <string name="slash">/</string>
+    <string name="close">Close</string>
+    <string name="encrypt_key">aL12qaUj6756fgOL</string>
+    <string name="encrypt_iv">nOe7aGfl</string>
+    <string name="api_url">http://webstudio.tokyo/para/list</string>
+</resources>
