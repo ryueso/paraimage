@@ -15,5 +15,5 @@
     <string name="close">Close</string>
     <string name="encrypt_key">aL12qaUj6756fgOL</string>
     <string name="encrypt_iv">nOe7aGfl</string>
-    <string name="api_url">http://webstudio.tokyo/para/list</string>
+    <string name="api_url">https://webstudio.tokyo/para/list</string>
 </resources>

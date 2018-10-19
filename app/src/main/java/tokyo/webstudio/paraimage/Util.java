@@ -5,7 +5,7 @@ import android.util.Log;
 public class Util {
 
     static void log(Object msg) {
-        Log.d("MyDebug", msg.toString());
+        Log.d("MyDebug", msg == null ? "null" : msg.toString());
     }
 
     public static String bin2hex(byte[] bytes) {

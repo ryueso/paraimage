@@ -90,7 +90,6 @@ public class ParaActivity extends Activity {
     }
 
     public void setImage(int imageNo) {
-        Util.log("setImage:" + imageNo);
         if (imageNo >= group.urls.length) {
             if (!stopToast) show();
             stopToast = true;
@@ -115,9 +114,8 @@ public class ParaActivity extends Activity {
             matrix.setScale(initialScale, initialScale);
             imageView.setImageMatrix(matrix);
             imageView.setImageBitmap(bitmap);
-            Util.log("setImageBitmap");
         } catch (Exception ex) {
-            Util.log(ex.getMessage());
+            Util.log(ex);
             return;
         } finally {
             stopToast = false;
